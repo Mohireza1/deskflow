@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "next": "16.4.0",
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
