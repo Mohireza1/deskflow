@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 
 const colorMap = {
   red: "bg-red-500/90 shadow-red-400/45",
-  blue: "bg-blue-500/90 shadow-blue-400/45",
-  green: "bg-green-500/90 shadow-green-400/45",
+  blue: "bg-blue-800/90 shadow-blue-400/45",
+  green: "bg-emerald-500 shadow-emerald-600/45",
   orange: "bg-orange-500/90 shadow-orange-400/45",
 };
 
