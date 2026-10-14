@@ -16,7 +16,7 @@ const MobileNav = () => {
   const [selected, setSelected] = useState(0);
 
   return (
-    <nav className="flex justify-between fixed bottom-3 w-5/6 max-w-80 left-0 right-0 mx-auto shadow-md bg-gray-50/70 px-4 py-1.5 rounded-2xl">
+    <nav className="fixed right-0 bottom-3 left-0 z-100 mx-auto flex w-5/6 max-w-80 justify-between rounded-2xl bg-gray-100/50 px-4 py-1.5 shadow-md backdrop-blur-md">
       <button type="button" onClick={() => setSelected(0)}>
         {selected === 0 ? <IoHomeSharp size={24} /> : <IoHomeOutline size={24} />}
       </button>
